@@ -4,10 +4,26 @@ html {
 }
 
 body {
-    height: 99%;
+    height: 98%;
     background: linear-gradient(180deg, rgb(140, 19, 19) 20%, rgb(0, 0, 0) 50%);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.headerC{
+    width: 101%;
+    height: 20%;
+    background-color: rgb(0, 0, 0);
+    margin: -0.5%;
 }
 
 .mainBoxC {
-    background-image: url(img/ruta_c.png);
+    height: 84%;
+    background-image: url(img/rutaC.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: -0.5%;
 }
