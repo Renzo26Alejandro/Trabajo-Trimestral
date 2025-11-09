@@ -1,16 +1,13 @@
 html {
     width: 100%;
     height: 100%;
-    z-index: 1;
 }
 
 body {
+    height: 99%;
     background: linear-gradient(180deg, rgb(140, 19, 19) 20%, rgb(0, 0, 0) 50%);
-    display: flex;
-    z-index: 2;
 }
 
 .mainBoxC {
-    z-index: 50;
     background-image: url(img/ruta_c.png);
 }
